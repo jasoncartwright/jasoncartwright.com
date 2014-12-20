@@ -1,0 +1,14 @@
+application: jasoncartwrightdotcom
+version: basic
+runtime: python
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index\.html
+
+- url: /photo.jpg
+  static_files: photo.jpg
+  upload: photo\.jpg
