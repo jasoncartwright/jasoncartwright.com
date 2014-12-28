@@ -3,6 +3,7 @@ version: basic
 runtime: python
 api_version: 1
 threadsafe: yes
+default_expiration: 1h
 
 handlers:
 - url: /
@@ -12,3 +13,7 @@ handlers:
 - url: /photo.jpg
   static_files: photo.jpg
   upload: photo\.jpg
+
+- url: /bg.png
+  static_files: bg.png
+  upload: bg\.png
