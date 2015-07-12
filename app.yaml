@@ -1,6 +1,6 @@
-application: jasoncartwrightdotcom
-version: basic
-runtime: python
+application: jccom-hrd 
+version: 1
+runtime: python27
 api_version: 1
 threadsafe: yes
 default_expiration: 1h
