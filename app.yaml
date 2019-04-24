@@ -8,11 +8,3 @@ handlers:
   static_files: index.html
   upload: index\.html
   secure: always
-
-- url: /photo.jpg
-  static_files: photo.jpg
-  upload: photo\.jpg
-
-- url: /bg.png
-  static_files: bg.png
-  upload: bg\.png
